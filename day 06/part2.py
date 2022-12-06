@@ -1,4 +1,4 @@
-def day6_part1_main() -> int:
+def day6_part2_main() -> int:
     with open("day 06/inputs.txt", 'r') as inFile:
         data: str = inFile.read().strip()
         
@@ -10,4 +10,4 @@ def day6_part1_main() -> int:
         return -1
     
 if __name__ == "__main__":
-    print(day6_part1_main())
+    print(day6_part2_main())
